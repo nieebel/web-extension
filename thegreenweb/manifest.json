@@ -51,8 +51,8 @@
     "webNavigation",
     "tabs",
     "storage",
-    "https://api.thegreenwebfoundation.org",
-    "https://www.thegreenwebfoundation.org"
+    "https://api.thegreenwebfoundation.org/*",
+    "https://www.thegreenwebfoundation.org/*"
   ],
   "content_scripts": [
     {
@@ -212,7 +212,7 @@
     },
     {
       "matches": [
-        "http://*/*"
+        "https://*/*"
       ],
       "css": [
         "thegreenweb.css",
