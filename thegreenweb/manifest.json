@@ -45,9 +45,7 @@
     "images/grey20x20transp.png",
     "images/top-logo-greenweb.png"
   ],
-  "permissions": [
-                                                                                                            
-                                                                                                            
+  "permissions": [                                                                                        
     "webNavigation",
     "tabs",
     "storage",
@@ -212,7 +210,7 @@
     },
     {
       "matches": [
-        "https://*/*"
+        "http://*/*"
       ],
       "css": [
         "thegreenweb.css",
